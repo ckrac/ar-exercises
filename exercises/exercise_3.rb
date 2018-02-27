@@ -6,3 +6,9 @@ puts "Exercise 3"
 puts "----------"
 
 # Your code goes here ...
+### Exercise 3: Delete the third store
+
+@store3 = Store.find(3)
+@store3.destroy
+
+puts Store.count
